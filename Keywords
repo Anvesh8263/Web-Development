@@ -1,0 +1,13 @@
+//KEYWORDS USING IN HTML
+
+<b>	Bold	Highlight important information
+<strong>	Strong	Similarly to bold, to highlight key text
+<i>	Italic	To denote text
+<em>	Emphasised Text	Usually used as image captions
+<mark>	Marked Text	Highlight the background of the text
+<small>	Small Text	To shrink the text
+<strike>	Striked Out Text	To place a horizontal line across the text
+<u>	Underlined Text	Used for links or text highlights
+<ins>	Inserted Text	Displayed with an underline to show an inserted text
+<sub>	Subscript Text	Typographical stylistic choice
+<sup>	Superscript Text	Another typographical presentation style

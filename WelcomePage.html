@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins',sans-serif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background:yellow;
+        }
+        .container{
+            height: 361px;
+            border: 8px solid red;
+            border-radius: 200px;
+        }
+        h1{
+            width: 857px;
+            height: 345px;
+            position: relative;
+            font-size: 80px;
+            color: rgb(104, 104, 224);
+            -webkit-text-stroke: 0.3vw #383d52;
+            padding: 46px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 10px solid #383d52;
+                border-radius: 200px;
+        }
+        h1::before{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 50%;
+            color: #01fe87;
+            -webkit-text-stroke: 0vw #383d52;
+            border-right: 2px solid #01fe87;
+                overflow: hidden;
+                animation: animate 2s linear infinite
+        }
+        @keyframes animate {
+            0%,10%,100%{
+                width: 0;
+
+            }
+            70%,90%{
+                width: 100%;
+            }
+        }
+        .btn{
+            width: 315px;
+            height:51px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 106px;
+            border: 3px solid red;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+        u{
+            border: 2px solid #383d52;
+        }
+        img{
+            height: 691px;
+            width: 305px;
+            border-radius: 20px;
+            margin-right: 8px;
+            border: 2px solid black;
+        }
+
+        
+    </style>
+</head>
+<body>
+    
+        
+ 
+    <div class="container">
+       <h1>Welcome Online Wedding Shopping</h1> 
+    </div>
+    <button class="btn"><a href="./Shopingwebsite.html">Let's Gets Started</button></a>
+    <img src="./Images/111111111.jpg" alt="">
+</body>
+</html>

@@ -1,0 +1,9 @@
+/* This is an external style sheet file */
+h1, h2, h3 {
+color: #36C;
+font-weight: normal;
+letter-spacing: .4em;
+margin-bottom: 1em;
+text-transform: lowercase;
+}
+/* end of style rules. */

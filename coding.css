@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 68px;
+    margin: -11px;
+}
+header{
+    background-color: white;
+    height: 50px;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border-top: 458px;
+    border-bottom-left-radius: 13px;
+    text-decoration: transparent;
+    color: white;
+}
+li{
+    margin-right: 140px;
+    float: right;
+    padding: 9px;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+header ul{
+    margin-right: 853px;
+    text-decoration: none;
+}
+header ul li a{
+    width: 20px;
+    height: 5px;
+    color:black;
+    text-decoration: none;
+    /* border-radius: 3px; */
+}
+.yuppy{
+background-color: white;
+    color: red;
+    /* margin-left: ; */
+    
+
+}
+
+
+header ul li a:hover{
+    width: 20px;
+    height: 5px;
+    background-color: beige;
+    color:red;
+    text-decoration: none;
+    /* border-radius: 4px; */
+}
+p{
+    
+    color: gray;
+    margin-left: -113px;
+    padding: 224px;
+
+}
+h1{
+    padding: 18px;
+    height: 12px;
+    width: 609px;
+    margin: 92px;
+    font-style: none;
+    font-size: 91px;
+    
+}
+.rocky{
+    height: 551px;
+    margin-left: 771px;
+}
+footer{
+    background-color: white;
+    color: black;
+    height: 40px;
+    text-align: center;
+    padding: 42px;
+
+}
+ol{
+    font-size: xx-large;
+    margin: -128px;
+}

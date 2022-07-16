@@ -1,0 +1,18 @@
+<style>
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: ;
+  : 2s;
+}
+
+@keyframes example {
+  from {: red;}
+  to {: blue;}
+}
+</style>
+
+<body>
+  <div>This is a div</div>
+</body>

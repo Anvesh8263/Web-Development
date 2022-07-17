@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <style>
+        *{
+           margin: 0; 
+           padding: 0;
+        }
+        body{
+            box-sizing: border-box;
+        }
+        .form-container{
+            background: #fff;
+            width: 314px;
+            height: 400px;
+            border-radius: 20px;
+            position: relative;
+            text-align: center;
+            padding: 20px 0;
+            margin: auto;
+            box-shadow: 0 0 20px 0px;
+            overflow: hidden;
+        }
+        .form-container span{
+            font-weight: bold;
+            padding: 0 10px;
+            color: #555;
+            cursor: pointer;
+            width: 100px;
+            display: inline-block;
+        }
+        .form-btn{
+            display: inline-block;
+        }
+        .form-container form{
+            max-width: 265px;
+            padding: 0 20px;
+            position: absolute;
+            top: 130px;
+           transition: transform 1s;
+        }
+        form input{
+            width: 100%;
+            height: 30px;
+            margin: 10px 0;
+            padding: 0 10px;
+            border: 1px solid #ccc;  
+            margin-left: -8px;
+        }
+        form .btn{
+            width: 100%;
+            border: none;
+            cursor: pointer;
+            margin: 10px 0;
+            height: 37px;
+            border-radius: 15px;
+            background-color: #ff523b;
+        }
+        form .btn:focus{
+            outline: none;
+        }
+        #LoginForm{
+            left: -304px;
+        }
+        #SignupForm{
+            left: 0;
+
+        }
+        form a{
+           font-size: 12px; 
+        }
+        #Indicator{
+            width: 100px;
+            border: none;
+            background: #ff523b;
+            height: 3px;
+            margin-top: 8px;
+            
+            transition: transform 1s;
+        }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="col-2">
+    <img src="./Images/scop.webp" alt="">
+</div>
+<div class="col-2" style="margin-top:-477px; margin-left: 508px;">
+   <div class="form-container">
+    <div class="form-btn">
+        <span onclick="login()">Login</span>
+        <span onclick="signup()">Signup</span>
+        <hr id="Indicator" style="transform:translate(136px);">
+    </div>
+    <form id="LoginForm" style="transform: translate(301px);">
+        <input type="text" placeholder="Username">
+        <input type="password" placeholder="Password">
+        <button type="submit" class="btn">Login</button>
+        <a href="">Forgot Password</a>
+    </form>
+    <form id="SignupForm" style="transform: translate(3px);">
+        <input type="text" placeholder="Username">
+        <input type="email" placeholder="Email-Id">
+        <input type="password" placeholder="Password">
+        <button type="submit" class="btn">Signup</button>
+    </form>
+
+   </div>
+</div>
+<script>
+    var LoginForm = document.getElementById("LoginForm");
+    var SignupForm = document.getElementById("SignupForm");
+    var Indicator = document.getElementById("Indicator");
+    function signup(){
+
+        SignupForm.style.transform = "translate(-4px)";
+        LoginForm.style.transform = "translate(0px)";
+        Indicator.style.transform = "translate(136px)";
+    }
+    function login(){
+
+SignupForm.style.transform = "translate(300px)";
+LoginForm.style.transform = "translate(300px)";
+Indicator.style.transform = "translate(0px)";
+}
+
+</script>
+</body>
+</html>

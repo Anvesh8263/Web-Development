@@ -1,0 +1,14 @@
+footer .wave#wave4{
+            z-index: 999;
+            opacity: 0.7;
+            bottom: 20px;
+            animation: animateWave_02 3s linear infinite
+         }
+         @keyframes animateWave {
+            0%{
+               background-position-x: 1000px;
+            }
+            100%{
+                background-position-x: 0px;
+            }
+         }

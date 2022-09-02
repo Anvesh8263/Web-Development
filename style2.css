@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-style: italic;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    color: white;
+    background-color: grey;
+}
+select{
+    outline:none;
+    margin: 30px;
+    padding: 10px;
+    color: white;
+    background-color: grey;
+    font-style: italic;
+    cursor: pointer;
+}
+select:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+button{
+    outline:none;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    background-color: grey;
+    font-style: italic;
+    cursor: pointer;
+}
+button:hover{
+    transition: 0.5s;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
